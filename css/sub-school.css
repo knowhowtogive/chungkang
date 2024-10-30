@@ -1,0 +1,165 @@
+@charset "UTF-8";
+/*******************모바일********************/
+
+
+/*main-img*/
+#main-img{
+  width: 100%;
+  position: absolute;
+  top: 70px;
+}
+#main-img .inner{
+  padding: 0;
+  max-width: 100%;
+}
+
+
+#main-img .desktop{
+  display: none;
+}
+#main-img .mobile{
+  width: 100%;
+}
+
+
+#main-img h2{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  letter-spacing: 2px;
+  font-weight: 600;
+}
+
+
+
+
+
+/*intro*/
+#intro{
+  width: 100%;
+  position: absolute;
+  top: 470px;
+}
+
+
+#intro .txt-box{
+  width: 100%;
+  position: absolute;
+  top: 240px;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  font-size: 1rem;
+  line-height: 1.7;
+  font-weight: 700;
+}
+#intro .txt-box::after{
+  content: "";
+  display: block;
+  background-color: #FFBA99;
+  width: 90%;
+  height: 2px;
+  margin-top: 140px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+#intro .txt-box .nature{
+  color: #79D4A2;
+}
+#intro .txt-box .human{
+  color: #FF884F;
+}
+#intro .txt-box .culture{
+  color: #6399FF;
+}
+#intro .txt-box .desktop{
+  display: none;
+}
+
+
+#intro .img-box{
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+#intro .img-box img{
+  width: 130px;
+  height: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*******************데스크탑********************/
+
+@media screen and (min-width : 1200px) {
+  
+  /*#main-img*/
+  #main-img .desktop{
+    display: block;
+    height: auto;
+    width: 100%;
+    padding: 0;
+  }
+  #main-img .mobile{
+    display: none;
+  }
+  #main-img{
+    position: static;
+  }
+  #main-img h2{
+    font-size: 4rem;
+  }
+  
+
+
+
+  /*intro*/
+  #intro{
+    position: static;
+  }
+  #intro .inner{
+    width: 100%;
+    justify-content: center;
+    display: flex;
+  }
+
+  #intro .txt-box{
+    width: 505px;
+    position: static;
+    font-size: 2rem;
+    transform: none;
+    text-align: left;
+  }
+  #intro .txt-box::after{
+    display: none;
+  }
+  #intro .txt-box .desktop{
+    display: block;
+  }
+
+  #intro .img-box{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    padding-top: 36px;
+  }
+  #intro .img-box img{
+    width: 200px;
+    height: 200px;
+  }
+}

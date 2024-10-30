@@ -1,0 +1,1188 @@
+@charset "UTF-8";
+
+/***********************모바일***********************/
+/*main-visual*/
+#main-visual h1{
+  line-height: 1.6;
+  font-size: 1.8rem;
+  font-weight: 800;
+  position: absolute;
+  top: 14%;
+  left: 5%;
+}
+#main-visual video{
+  position: absolute;
+  right: 0;
+  top: 32%;
+  width: 93%;
+  height: 35%;
+  object-fit: cover;
+  border-top-left-radius: 250px;
+}
+#main-visual .img-box{
+  width: 86%;
+  height: 30%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  position: absolute;
+  top: 69%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+#main-visual .img-box img{
+  width: calc((100% - 20px) / 2);
+  height: calc((100% - 20px) / 2);
+  object-fit: cover;
+}
+#main-visual .img-box img:nth-child(1){
+  border-top-right-radius: 100px;
+}
+#main-visual .img-box img:nth-child(2){
+  border-bottom-right-radius: 100px;
+}
+#main-visual .img-box img:nth-child(3){
+  border-bottom-left-radius: 120px;
+}
+#main-visual .pc-border{
+  display: none;
+  position: relative;
+}
+
+
+
+
+
+/*news-notice*/
+#news-notice{
+  background-color: #FFF8F4;
+}
+#news-notice h2{
+  background-color: #ff5401;
+  color: #fff;
+  font-size: 2.5rem;
+  font-weight: 200;
+  text-align: center;
+  padding: 30px 0;
+  letter-spacing: 3px;
+  margin-bottom: 80px;
+}
+#news-notice h3{
+  background-color: #ff5401;
+  color: #fff;
+  font-size: 0.9rem;
+  font-weight: 400;
+  text-align: center;
+  width: 100px;
+  padding: 10px 0;
+  margin-bottom: 25px;
+  border-radius: 40px;
+}
+
+/*news*/
+#news-notice .news-wrap li{
+  width: 35%;
+  background-color: #fff;
+  border: 1.5px solid #000;
+  border-radius: 20px;
+}
+#news-notice .news-wrap li .txt-box{
+  padding: 0 15px;
+}
+#news-notice .main-news h3{
+  display: none;
+}
+#news-notice ul li .txt-box a:nth-of-type(1){
+  display: block;
+  font-size: 0.7rem;
+  margin: 15px 0;
+  font-weight: 700;
+}
+#news-notice .txt-box .news-more{
+  display: none;
+}
+#news-notice .news-wrap a span{
+  font-size: 0.6rem;
+  font-weight: 400;
+  color: #A4A4A4;
+  display: block;
+  margin-top: 2px;
+}
+#news-notice p{
+  font-size: 0.6rem;
+  color: #676767;
+  line-height: 1.7;
+  margin: 20px 0;
+  width: 100%;
+  height: 50px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+#news-notice .news-wrap{
+  padding-left: 7%;
+}
+#news-notice ul li img{
+  width: 100%;
+  height: 110px;
+  object-fit: cover;
+  border-top-left-radius: 18px;
+  border-top-right-radius: 18px;
+  border-bottom: 1px solid #000;
+}
+
+
+
+/*notice*/
+.notice-wrap{
+  width: 100%;
+  padding: 0 7%;
+  margin: 80px 0 0;
+  position: relative;
+  padding-bottom: 130px;
+}
+.notice-wrap .top{
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+.notice-wrap .top h3{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.notice-wrap .top ul{
+  display: flex;
+  gap: 10px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 0;
+}
+.notice-wrap .middle{
+  padding-top: 50px;
+  color: #676767;
+}
+.notice-wrap .middle li{
+  display: flex;
+  justify-content: space-between;
+}
+.notice-wrap .middle a{
+  font-size: 0.8rem;
+  font-weight: 500;
+  margin-bottom: 10px;
+  display: inline-block;
+}
+.notice-wrap .middle a span{
+  display: none;
+}
+.notice-wrap .middle span{
+  font-size: 0.6rem;
+  color: #A4A4A4;
+}
+.notice-wrap .more{
+  font-size: 0.8rem;
+  position: absolute;
+  right: 7%;
+  font-weight: 700;
+  color: #000;
+  padding: 20px 0 0;
+  border-bottom: 3px solid #000;
+}
+
+.menu-item {
+  cursor: pointer;
+  display: inline-block;
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: #676767;
+  border-bottom: 2px solid rgba(1, 1, 1, 0);
+}
+.menu-item.active {
+  border-bottom: 2px solid #555;
+}
+
+
+
+
+
+
+/*quick-menu*/
+#quick-menu{
+  width: 100%;
+  height: 600px;
+  position: relative;
+}
+#quick-menu ul{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  /*position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translateX(-50%);*/
+  justify-content: center;
+}
+#quick-menu ul li{
+  width: 25%;
+  text-align: center;
+}
+#quick-menu h3{
+  text-align: center;
+  padding: 60px 0;
+  /*position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translateX(-50%);*/
+}
+#quick-menu img{
+  width: 80px;
+}
+#quick-menu p{
+  font-size: 0.8rem;
+  font-weight: 700;
+  text-align: center;
+  padding-top: 15px;
+  color: #676767;
+}
+
+
+
+
+
+
+
+
+
+
+/*introduce*/
+#introduce{
+  position: relative;
+}
+#introduce img:nth-of-type(1){
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  border-bottom-left-radius: 25%;
+}
+#introduce img:nth-of-type(2){
+  width: 40%;
+  height: 100px;
+  object-fit: cover;
+  border-top-left-radius: 200px;
+  opacity: 0.3;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+#introduce img:nth-of-type(3){
+  display: none;
+}
+#introduce h3{
+  font-size: 2.2rem;
+  line-height: 1.5;
+  position: absolute;
+  top: 40px;
+  left: 30px;
+  color: #fff;
+}
+#introduce p{
+  width: 400px;
+  font-size: 0.8rem;
+  color: #676767;
+  padding: 50px 0 100px 30px;
+  line-height: 1.8;
+}
+#introduce a{
+  display: none;
+}
+
+
+
+
+
+
+
+
+/*school*/
+#school > h2{
+  font-size: 2.5rem;
+  font-weight: 200;
+  letter-spacing: 3px;
+  text-align: center;
+  padding: 150px 0 50px;
+}
+#school > p{
+  font-size: 0.5rem;
+  color: #676767;
+  text-align: center;
+  padding: 0 50px 100px;
+  line-height: 1.6;
+}
+#school > div{
+  padding: 50px 0;
+}
+#school ul{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+
+
+#school .txt-box{
+  width: 50%;
+  padding: 0 5%;
+}
+#school .txt-box h3{
+  font-weight: 800;
+  font-size: 1.4rem;
+}
+#school div:nth-of-type(2n+1) .txt-box h3{
+  text-align: right;
+}
+#school div:nth-of-type(2n) .txt-box h3{
+  text-align: left;
+}
+#school .txt-box p{
+  display: none;
+}
+#school > div > p{
+  display: block;
+  font-size: 0.5rem;
+  text-align: center;
+  padding: 50px 0;
+  line-height: 1.8;
+}
+
+
+
+#school .img-box{
+  width: 70%;
+}
+#school .img-box .desktop{
+  display: none;
+}
+
+#school .img-box .mobile{
+  position: relative;
+}
+#school .img-box .mobile img:nth-of-type(1){
+  position: absolute;
+  z-index: 99;
+}
+#school .img-box .mobile img:nth-of-type(2){
+  width: 100%;
+  border-bottom: 15px solid #ff5401;
+}
+
+
+
+/*영문 스쿨명*/
+#school .convergence .txt-box h3::before{
+  content: "School of Convergence";
+  color: #ff5401;
+  font-size: 0.7rem;
+  display: block;
+}
+#school .animation .txt-box h3::before{
+  content: "School of Animation";
+  color: #ff5401;
+  font-size: 0.7rem;
+  display: block;
+}
+#school .cartoon .txt-box h3::before{
+  content: "School of Manhwa Contents";
+  color: #ff5401;
+  font-size: 0.6rem;
+  display: block;
+}
+#school .game .txt-box h3::before{
+  content: "School of Game";
+  color: #ff5401;
+  font-size: 0.7rem;
+  display: block;
+}
+#school .perform .txt-box h3::before{
+  content: "School Of Performing Arts";
+  color: #ff5401;
+  font-size: 0.7rem;
+  display: block;
+}
+#school .fashion .txt-box h3::before{
+  content: "School of Fashion & Beauty Style";
+  color: #ff5401;
+  font-size: 0.6rem;
+  width: 160px;
+  display: block;
+}
+#school .food .txt-box h3::before{
+  content: "School of Culinary Arts";
+  color: #ff5401;
+  font-size: 0.7rem;
+  display: block;
+}
+
+
+
+/*캐릭터 이미지*/
+#school .convergence .img-box .mobile img:nth-of-type(1){
+  position: absolute;
+  width: 100%;
+  bottom: 15px;
+  padding-right: 85px;
+  z-index: 99;
+}
+#school .animation .img-box .mobile img:nth-of-type(1){
+  position: absolute;
+  width: 72.3%;
+  bottom: 19px;
+  left: 11%;
+  z-index: 99;
+}
+#school .cartoon .img-box .mobile img:nth-of-type(1){
+  position: absolute;
+  width: 100%;
+  bottom: 15px;
+  z-index: 99;
+}
+#school .game .img-box .mobile img:nth-of-type(1){
+  position: absolute;
+  width: 60%;
+  bottom: 15px;
+  right: 11%;
+  z-index: 99;
+}
+#school .perform .img-box .mobile img:nth-of-type(1){
+  position: absolute;
+  width: 40%;
+  left: 33.5%;
+  bottom: 33%;
+  z-index: 99;
+}
+#school .fashion .img-box .mobile img:nth-of-type(1){
+  position: absolute;
+  width: 100%;
+  bottom: 15px;
+  z-index: 99;
+}
+#school .food .img-box .mobile img:nth-of-type(1){
+  position: absolute;
+  width: 100%;
+  bottom: 15px;
+  z-index: 99;
+}
+
+
+
+
+
+
+
+/*exhibition*/
+#exhibition h2{
+  font-size: 2.5rem;
+  font-weight: 200;
+  letter-spacing: 3px;
+  text-align: center;
+  padding: 50px 0 80px;
+}
+#exhibition li{
+  display: flex;
+  margin-bottom: 150px;
+}
+#exhibition img{
+  display: block;
+  width: 95%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.7;
+  border-radius: 10%;
+  transition: all 0.3s;
+}
+#exhibition li:nth-of-type(3) a{
+  display: block;
+  height: 100%;
+}
+#exhibition img:hover{
+  opacity: 1;
+  border-radius: 0;
+}
+#exhibition > div{
+  padding-left: 3%;
+}
+
+
+
+
+
+
+
+
+/*calendar*/
+#calendar table .schedule-pop-up {
+  display: none;
+}
+#calendar{
+  padding-bottom: 150px;
+}
+#calendar .top{
+  background-color: #ff5401;
+  height: 150px;
+  color: #fff;
+  text-align: center;
+}
+#calendar .top h2{
+  font-weight: 200;
+  letter-spacing: 3px;
+  padding-top: 30px;
+  font-size: 3rem;
+}
+#calendar .top p{
+  font-size: 0.8rem;
+  font-weight: 300;
+  padding-top: 3px;
+}
+
+
+#calendar .up{
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 0;
+}
+#calendar .up h3{
+  text-decoration: underline;
+  font-size: 2.5rem;
+}
+#calendar .up span{
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+
+#calendar table .day th{
+  text-align: left;
+  font-size: 1rem;
+  width: 10%;
+}
+#calendar table .day th::after{
+  content: "";
+  width: 80%;
+  height: 1px;
+  background-color: #000;
+  border: 1px solid #000;
+  display: block;
+  margin-top: 8px;
+}
+#calendar table tr td{
+  font-size: 0.9rem;
+  font-weight: 600;
+  padding-top: 15px;
+  position: relative;
+  cursor: pointer;
+}
+#calendar table tr td:hover::after{
+  background-color: #000;
+  border: 1px solid #000;
+}
+#calendar table tr td::after{
+  content: "";
+  width: 80%;
+  height: 0;
+  background-color: #B1B1B1;
+  border: 1px solid #B1B1B1;
+  display: block;
+  margin-top: 80px;
+}
+#calendar table tr td ul li{
+  position: absolute;
+  top: 40px;
+}
+#calendar table tr td  ul li:nth-of-type(2){
+  left: 10px;
+}
+
+
+#calendar table tr td .pink{
+  background-color: #FFB9B9;
+  width: 7px;
+  height: 7px;
+  border-radius: 100%;
+  display: inline-block;
+}
+#calendar table .yellow{
+  background-color: #FFBC2B;
+  width: 7px;
+  height: 7px;
+  border-radius: 100%;
+  display: inline-block;
+}
+#calendar table .green{
+  background-color: #92E082;
+  width: 7px;
+  height: 7px;
+  border-radius: 100%;
+  display: inline-block;
+}
+#calendar table .purple{
+  background-color: #8B8DFF;
+  width: 7px;
+  height: 7px;
+  border-radius: 100%;
+  display: inline-block;
+}
+
+
+#calendar table .schedule-pop-up{
+  position: absolute;
+  top: 60px;
+  z-index: 99;
+  width: 260px;
+  height: 120px;
+  background-color: #fff;
+  border: 1px solid #000;
+  padding: 10px 0 10px 15px;
+  box-shadow: 2px 2px 2px #A4A4A4;
+}
+#calendar table .schedule-pop-up p{
+  margin-bottom: 10px;
+  font-size: 0.8rem;
+}
+
+#calendar table .week-three .schedule-pop-up{
+  right: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**********************데스크탑**********************/
+@media screen and (min-width : 1200px) {
+  
+  /*main-visual*/
+  #main-visual{
+    padding-top: 10px;
+    position: relative;
+  }
+  #main-visual .pc-border{
+    display: block;
+    width: 100%;
+    z-index: 9;
+  }
+  #main-visual h1{
+    font-size: 3.6rem;
+    top: 10%;
+    left: 6%;
+  }
+  #main-visual video{
+    top: 0;
+    width: 60%;
+    height: 100%;
+    border-top-left-radius: 480px;
+  }
+  #main-visual .img-box{
+    width: 28%;
+    height: 40%;
+    left: 19.5%;
+    top: 50%;
+    gap: 15px;
+    z-index: 9;
+  }
+  #main-visual .img-box::before{
+    content: "NEW STORY";
+    font-size: 1rem;
+    font-weight: 700;
+    position: absolute;
+    top: -30px;
+  }  
+
+  #main-visual .img-box img{
+    width: calc((100% - 15px) / 2);
+    object-fit: cover;
+  }
+
+
+
+
+  /*news-notice*/
+  #news-notice{
+    background-color: #FFF8F4;
+    padding-bottom: 80px;
+  }
+  #news-notice .content-wrap{
+    display: flex;
+    gap: 7%;
+    padding: 0 3.8%;
+  }
+  #news-notice h2{
+    padding: 30px 0;
+    padding-top: 80px;
+    font-size: 3.5rem;
+  }
+  
+
+  /*news*/
+  #news-notice .news-wrap{
+    width: 50%;
+    padding: 0;
+  }
+  #news-notice .news-wrap li .txt-box{
+    padding: 0;
+    padding-left: 50px;
+  }
+  #news-notice .news-wrap > h3{
+    display: none;
+  }
+  #news-notice .main-news{
+    position: relative;
+  }
+  #news-notice .main-news h3{
+    display: block;
+  }
+  #news-notice .news-wrap .news ul li:nth-child(n+2){
+    display: none;
+  }
+  #news-notice .news-wrap li{
+    background-color: transparent;
+    border: none;
+    display: flex;
+  }
+  #news-notice ul li img{
+    width: 100%;
+    height: 370px;
+    border-radius: 3%;
+    border-bottom: 0;
+  }
+  #news-notice .main-news .txt-box a:nth-of-type(1){
+    font-size: 1.7rem;
+    margin: 20px 0;
+    font-weight: 700;
+  }
+  #news-notice .news-wrap a span{
+    font-size: 0.7rem;
+    font-weight: 400;
+    margin-top: 2px;
+  }
+  #news-notice p{
+    font-size: 0.75rem;
+    width: 370px;
+    height: 170px;
+  }
+  #news-notice .txt-box .news-more{
+    display: block;
+    font-size: 0.8rem;
+    font-weight: 700;
+    text-align: right;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    border-bottom: 3px solid #000;
+  }
+
+
+  /*notice*/
+  .notice-wrap::before{
+    content: "";
+    width: 1px;
+    height: 100%;
+    background-color: #fff;
+    border: 1px solid #fff;
+    display: block;
+    position: absolute;
+    left: -8%;
+  }
+  .notice-wrap{
+    width: 50%;
+    height: 370px;
+    padding: 0;
+    padding-top: 20px;
+    margin: 0;
+    position: relative;
+    padding-bottom: 230px;
+  }
+  .notice-wrap .middle li{
+    line-height: 1.6;
+  }
+  .notice-wrap .middle a span{
+    display: inline;
+    padding: 5px 7px;
+    background-color: #FFBA99;
+    color: #fff;
+    font-size: 0.6rem;
+    border-radius: 10px;
+    margin-right: 5px;
+  }
+  .notice-wrap .more{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
+
+
+
+
+
+  /*quick-menu*/
+  #quick-menu .inner{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    padding: 0 10%;
+  }
+  #quick-menu h3{
+    position: relative;
+    height: 120px;
+    padding: 0;
+    margin-right: 50px;
+    text-align: left;
+    width: 100px;
+  }
+  #quick-menu ul{
+    height: 120px;
+    gap: 0;
+    flex-wrap: nowrap;
+    width: 100%;
+  }
+  #quick-menu ul li{
+    width: 12.5%;
+  }
+  #quick-menu h3::before{
+    content: "";
+    position: absolute;
+    left: -20px;
+    border: 1px solid #ff5401;
+    background-color: #ff5401;
+    width: 5px;
+    height: 100%;
+  }
+  #quick-menu img{
+    width: 85px;
+  }
+  #quick-menu p{
+    font-size: 0.9rem;
+  }
+
+
+
+
+
+
+  /*introduce*/
+  #introduce h3{
+    font-size: 3.7rem;
+    line-height: 1.5;
+    position: absolute;
+    top: 100px;
+    left: 70px;
+    color: #000;
+  }
+  #introduce img:nth-of-type(1){
+    width: 50%;
+    height: 650px;
+    border-bottom-left-radius: 450px;
+    position: absolute;
+    right: 0;
+  }
+  #introduce img:nth-of-type(2){
+    width: 30%;
+    height: 280px;
+    object-fit: cover;
+    border-top-left-radius: 0;
+    border-top-right-radius: 300px;
+    opacity: 0.25;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  }
+  #introduce img:nth-of-type(3){
+    display: block;
+    position: absolute;
+    top: 40px;
+    left: 520px;
+  }
+  #introduce p{
+    width: 730px;
+    font-weight: 500;
+    font-size: 1.5rem;
+    color: #000;
+    padding: 400px 0 195px 70px;
+    line-height: 1.8;
+  }
+  #introduce a{
+    display: block;
+    text-align: center;
+    font-size: 1rem;
+    width: 180px;
+    padding: 15px 0;
+    color: #ff5401;
+    border: 1px solid #ff5401;
+    background-color: rgba(255, 255, 255, 0.5);
+    position: absolute;
+    left: 70px;
+    bottom: 80px;
+    z-index: 9;
+  }
+
+
+
+
+  /*school*/
+  
+  #school .txt-box p{
+    display: block;
+  }
+  #school > div > p{
+    display: none;
+  }
+  #school .img-box .desktop{
+    padding: 0;
+  }
+  #school .img-box .mobile{
+    display: none;
+  }
+
+
+  #school > h2{
+    font-size: 3.5rem;
+    padding-top: 200px;
+  }
+  #school > p{
+    font-size: 1rem;
+    line-height: 1.6;
+    padding-bottom: 100px;
+  }
+
+
+  #school > div{
+    margin: 250px 0;
+  }
+
+  #school ul{
+    align-items: end;
+  }
+  #school .txt-box{
+    width: 1000px;
+    padding: 0 3%;
+  }
+  #school .txt-box h3 br{
+    display: none;
+  }
+  #school div:nth-of-type(2n+1) .txt-box h3{
+    text-align: right;
+    font-size: 3.5rem;
+    margin-bottom: 35px;
+  }
+  #school div:nth-of-type(2n) .txt-box h3{
+    font-size: 3.5rem;
+    margin-bottom: 35px;
+    text-align: left;
+  }
+  #school div:nth-of-type(2n+1) .txt-box p{
+    font-size: 1rem;
+    line-height: 1.7;
+    text-align: right;
+  }
+  #school div:nth-of-type(2n) .txt-box p{
+    font-size: 1rem;
+    line-height: 1.7;
+    text-align: left;
+  }
+
+
+ 
+  #school .desktop img{
+    width: 100%;
+    height: auto;
+  }
+  #school .img-box .desktop{
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 50%;
+  }
+  #school .img-box .desktop img:nth-of-type(2){
+    border-bottom: 30px solid #ff5401;
+  }
+
+
+
+  /*영문 스쿨명*/
+  #school .convergence .txt-box h3::before{
+    content: "School of Convergence";
+    font-size: 1rem;
+  }
+  #school .animation .txt-box h3::before{
+    content: "School of Animation";
+    font-size: 1rem;
+  }
+  #school .cartoon .txt-box h3::before{
+    content: "School of Manhwa Contents";
+    font-size: 1rem;
+  }
+  #school .game .txt-box h3::before{
+    content: "School of Game";
+    font-size: 1rem;
+  }
+  #school .perform .txt-box h3::before{
+    content: "School Of Performing Arts";
+    font-size: 1rem;
+  }
+  #school .fashion .txt-box h3::before{
+    content: "School of Fashion & Beauty Style";
+    font-size: 1rem;
+    width: 300px;
+  }
+  #school .food .txt-box h3::before{
+    content: "School of Culinary Arts";
+    font-size: 1rem;
+  }
+
+
+  /*캐릭터 이미지*/
+  #school .convergence .img-box .desktop img:nth-of-type(1){
+    position: absolute;
+    width: 70%;
+    bottom: 30px;
+    z-index: 99;
+  }
+  #school .animation .img-box .desktop img:nth-of-type(1){
+    position: absolute;
+    width: 69.8%;
+    bottom: 30px;
+    left: 17.3%;
+    z-index: 99;
+  }
+  #school .cartoon .img-box .desktop img:nth-of-type(1){
+    position: absolute;
+    width: 100%;
+    bottom: 30px;
+    z-index: 99;
+  }
+  #school .game .img-box .desktop img:nth-of-type(1){
+    position: absolute;
+    width: 60%;
+    bottom: 30px;
+    right: 11%;
+    z-index: 99;
+  }
+  #school .perform .img-box .desktop img:nth-of-type(1){
+    position: absolute;
+    width: 40%;
+    left: 33.5%;
+    bottom: 30px;
+    z-index: 99;
+  }
+  #school .fashion .img-box .desktop img:nth-of-type(1){
+    position: absolute;
+    width: 100%;
+    bottom: 30px;
+    z-index: 99;
+  }
+  #school .food .img-box .desktop img:nth-of-type(1){
+    position: absolute;
+    width: 100%;
+    bottom: 30px;
+    z-index: 99;
+  }
+
+
+
+
+
+
+
+  /*exhibition*/
+  #exhibition li{
+    justify-content: center;
+  }
+  #exhibition img{
+    width: 80%;
+    height: 100%;
+  }
+
+
+
+
+
+
+
+  /*calendar*/
+  #calendar .top{
+    height: 250px;
+  }
+  #calendar .top h2{
+    letter-spacing: 3px;
+    padding-top: 65px;
+    font-size: 4rem;
+  }
+  #calendar .top p{
+    font-size: 1rem;
+    padding-top: 3.5px;
+  }
+
+
+  #calendar .inner{
+    display: flex;
+    padding-top: 100px;
+  }
+
+
+  #calendar .up{
+    position: relative;
+    display: block;
+    height: 615px;
+    width: 40%;
+  }
+  #calendar .up h3{
+    font-weight: 500;
+    font-size: 7rem;
+  }
+  #calendar .up .button{
+    position: absolute;
+    bottom: 10%;
+  }
+
+
+  #calendar table .day th{
+    font-size: 1.5rem;
+  }
+  #calendar table tr td{
+    font-size: 1rem;
+  }
+  #calendar table tr td::after{
+    margin-top: 70px;
+  }
+
+  #calendar table tr td  ul li:nth-of-type(2){
+    left: 15px;
+  }
+  #calendar table tr td .pink{
+    width: 10px;
+    height: 10px;
+  }
+  #calendar table .yellow{
+    width: 10px;
+    height: 10px;
+  }
+  #calendar table .green{
+    width: 10px;
+    height: 10px;
+  }
+  #calendar table .purple{
+    width: 10px;
+    height: 10px;
+  }
+}

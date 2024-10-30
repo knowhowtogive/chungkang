@@ -1,0 +1,780 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>청강문화산업대학교</title>
+
+  <!--favicon-->
+  <link rel="icon" href="img/favicon/favicon.ico">
+
+  <!--icon-->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+
+  <!--font-->
+  <link rel="stylesheet" href="css/font.css">
+
+  <!--css-->
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/swiper.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/common.css">
+  <link rel="stylesheet" href="css/main.css">
+
+  <!--js-->
+  <script defer src="js/jquery-3.7.1.min.js"></script>
+  <script defer src="js/swiper-bundle.min.js"></script>
+  <script defer src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script defer src="js/common.js"></script>
+  <script defer src="js/main.js"></script>
+
+</head>
+<body>
+  <div id="wrap">
+    <header>
+      <div class="mobile">
+        <div class="header">
+          <span class="material-symbols-outlined menu-button">
+            menu
+          </span>
+          <a href="#">
+            <img src="img/logo_symbol.png" alt="로고 심볼">
+          </a>
+          <a href="#">로그인</a>
+        </div>
+
+        <div class="m-gnb">
+          <div class="m-gnb-top">
+            <img src="img/logo_symbol_white.png" alt="로고">
+            <span class="material-symbols-outlined close">
+              close
+            </span>
+          </div><!--.m-gnb-top-->
+
+          <div class="menu">
+            <!-- Left side: Depth 1 -->
+            <ul id="m-depth1">
+              <li data-target="about-school">대학소개</li>
+              <li data-target="entrance">입학안내</li>
+              <li data-target="majority">스쿨&학과</li>
+              <li data-target="school-life">대학생활</li>
+              <li data-target="appendages">부속기관</li>
+              <li data-target="notice">공지사항</li>
+            </ul>
+            
+            <!-- Right side: Depth 2 -->
+            <ul id="m-depth2">
+              <img src="img/chungkang.png" alt="마스코트">
+            </ul>
+          </div><!--.menu-->
+        </div><!--.m-gnb-->
+      </div><!--.mobile-->
+      <div class="desktop">
+        <a href="#"><img src="img/logo_text.jpg" alt="로고"></a>
+        <ul class="gnb">
+          <li>
+            <a href="#">대학소개</a>
+            <ul class="depth2">
+              <li><a href="sub-school.html">ABOUT 청강</a></li>
+              <li><a href="#">오시는 길</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#">입학안내</a>
+          </li>
+          <li>
+            <a href="#">스쿨&학과</a>
+            <ul class="depth2">
+              <li><a href="#">애니메이션스쿨</a></li>
+              <li><a href="#">융합콘텐츠스쿨</a></li>
+              <li><a href="#">게임콘텐츠스쿨</a></li>
+              <li><a href="#">만화컨텐츠스쿨</a></li>
+              <li><a href="#">공연예술스쿨</a></li>
+              <li><a href="#">패션뷰티스쿨</a></li>
+              <li><a href="#">푸드스쿨</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#">대학생활</a>
+            <ul class="depth2">
+              <li><a href="#">학사안내</a></li>
+              <li><a href="#">장학제도</a></li>
+              <li><a href="#">학생편의시설</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#">부속기관</a>
+            <ul class="depth2">
+              <li><a href="#">기숙사</a></li>
+              <li><a href="#">도서관</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#">공지사항</a>
+            <ul class="depth2">
+              <li><a href="#">청강소식</a></li>
+              <li><a href="#">공지사항</a></li>
+            </ul>
+          </li>
+        </ul>
+        <div class="utill">
+          <p>로그인</p>
+          <p>English</p>
+          <span class="material-symbols-outlined">
+            search
+          </span>
+
+          <div class="search">
+            <form>
+              <fieldset>
+                <legend>검색영역</legend>
+                <div>
+                  <input type="text" title="검색어 입력" placeholder="검색어를 입력해  주세요">
+                  <button type="button">검색</button>
+                </div>
+              </fieldset>
+            </form>
+    
+            <span class="material-symbols-outlined search-close">
+              close
+            </span>
+          </div><!--.search-->
+        </div><!--.utill-->
+        
+      </div><!--.desktop-->
+      <div class="desktop-header-bk">
+        <img src="img/chungkang.png" alt="마스코트">
+      </div><!--.desktop-header-bk-->
+    </header>
+
+    <section id="main-visual">
+      <img src="img/main-visual-bg.png" alt="주황색 외곽선" class="pc-border">
+      <h1>
+        미래 문화산업을 선도하는<br>
+        콘텐츠 창의인재 양성
+      </h1>
+      <video src="img/main_visual.mp4" autoplay muted playsinline loop></video>
+      <div class="img-box">
+        <img src="img/mv_yumi.jpg" alt="유미의 세포들">
+        <img src="img/mv_game.jpg" alt="게임">
+        <img src="img/mv_makeup.png" alt="이사배">
+        <img src="img/mv_perform.png" alt="공연">
+      </div><!--.img-box-->
+    </section><!--#main-visual-->
+
+    <section id="news-notice" data-aos="fade-down" data-aos-once="true">
+      <h2>News &#38; Notice</h2>
+      <div class="content-wrap">
+        <div class="news-wrap">
+          <h3>청강소식</h3>
+          <div class="swiper news">
+            <ul class="swiper-wrapper">
+              <li class="swiper-slide main-news">
+                <a href="#"><img src="img/news1.jpg" alt="미래내일 일경험 3기 모집"></a>
+                <div class="txt-box">
+                  <h3>청강소식</h3>
+                  <a href="#">미래내일 일경험 3기 모집
+                    <span>2024.09.26</span></a>
+                  <p>
+                    게임문화재단(이사장 김경일, 이하 재단)은 문화체육관광부(장관 유인촌), 한국콘텐츠진흥원(원장 조현래)과 함께 지난 7월 29일부터 30일까지 1박 2일간 ‘2024 찾아가는 게임문화교실’ 진로체험 프로그램을 운영했다고 밝혔다. 재단은 전국 초·중등학생 및 학교 밖 청소년, 기타 학생을 대상으로 건전한 게임문화 확산을 위해 ‘찾아가는 게임문화교실’을 운영하고 있다.
+                  </p>
+                  <a href="#" class="news-more">자세히 보기</a>
+                </div><!--.txt-box-->
+              </li>
+              <li class="swiper-slide">
+                <a href="#"><img src="img/news2.jpg" alt="연극 장소 연습 현장"></a>
+                <div class="txt-box">
+                  <a href="#">연극 	&#60;장소&#62; 포럼 개최
+                    <span>2024.09.26</span></a>
+                  <p>
+                    청강문화산업대학교 공연예술스쿨(원장 최재영)에서 2023학년도 1학기 제작실습공연으로 진행되어 학내에서 큰 화제를 모았던 연극 <장소>(김철의 작, 변영진 연출)를 공연계 전문가 및 각계 외부인사들을 초청하여 지난 8일 재공연과 함께 포럼을 진행했다고 전했다.
+                  </p>
+                </div><!--.txt-box-->
+              </li>
+              <li class="swiper-slide">
+                <a href="#"><img src="img/news3.jpg" alt="도원결의"></a>
+                <div class="txt-box">
+                  <a href="#">2024년도 도원결의 개최
+                    <span>2024.09.26</span></a>
+                  <p>
+                    ‘도원결의’는 청강의 학우분들이 직접 제작한 개인 창작물과 캐릭터 굿즈를 사고팔 수 있는 콘텐츠 판매전인데요.
+
+                    &#60;삼국지연의	&#62;에서 유비, 관우, 장비가 맺은 의형제와 같이
+                    
+                    청강의 애니메이션스쿨, 만화콘텐츠스쿨, 게임콘텐츠스쿨 학우분들의
+                    
+                    지속적인 소통을 위해 세 스쿨의 학생회에서 자발적으로 기획하여 시작된 행사입니다.
+                  </p>
+                </div><!--.txt-box-->
+              </li>
+              <li class="swiper-slide">
+                <a href="#"><img src="img/news1.jpg" alt="미래내일 일경험 3기 모집"></a>
+                <div class="txt-box">
+                  <a href="#">미래내일 일경험 3기 모집
+                    <span>2024.09.26</span></a>
+                  <p>게임문화재단(이사장 김경일, 이하 재단)은 문화체육관광부(장관 유인촌), 한국콘텐츠진흥원...</p>
+                </div><!--.txt-box-->
+              </li>
+              <li class="swiper-slide">
+                <a href="#"><img src="img/news2.jpg" alt="연극 장소 연습 현장"></a>
+                <div class="txt-box">
+                  <a href="#">연극 	&#60;장소&#62; 포럼 개최
+                    <span>2024.09.26</span></a>
+                  <p>청강문화산업대학교 공연예술스쿨(원장 최재영)에서 2023학년도 1학기 제작실습공연으로...</p>
+                </div><!--.txt-box-->
+              </li>
+              <li class="swiper-slide">
+                <a href="#"><img src="img/news3.jpg" alt="도원결의"></a>
+                <div class="txt-box">
+                  <a href="#">2024년도 도원결의 개최
+                    <span>2024.09.26</span></a>
+                  <p>‘도원결의’는 청강의 학우분들이 직접 제작한 개인 창작물과 캐릭터 굿즈를 사고팔 수 있는...
+                  </p>
+                </div><!--.txt-box-->
+              </li>
+            </ul>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div><!--.news-wrap-->
+        <div class="notice-wrap">
+          <div class="top">
+            <h3>공지사항</h3>
+            <ul>
+              <li class="menu-item active">학사</li>
+              <li class="menu-item">장학</li>
+              <li class="menu-item">취창업</li>
+            </ul>
+          </div><!--.top-->
+          <ul class="middle">
+            <li>
+              <a href="#"><span>학사</span>2024학년도 2학기 중간 수업평가 안내</a>
+              <span>2024.10.09</span>
+            </li>
+            <li>
+              <a href="#"><span>학사</span>2024-2학기 휴업일에 따른 수업대체일자 안내(2차)</a>
+              <span>2024.09.10</span>
+            </li>
+            <li>
+              <a href="#"><span>학사</span>2024-2학기 학점인정 신청 안내</a>
+              <span>2024.09.09</span>
+            </li>
+            <li>
+              <a href="#"><span>학사</span>2024학년도 2학기 「수강신청학점」 취소 안내</a>
+              <span>2024.08.29</span>
+            </li>
+            <li>
+              <a href="#"><span>학사</span>2024-2학기 진로탐색학점제 결과 안내</a>
+              <span>2024.08.14</span>
+            </li>
+            <li>
+              <a href="#"><span>학사</span>2024-2학기 전과, 부전공 선발 결과 안내</a>
+              <span>2024.08.09</span>
+            </li>
+            <li>
+              <a href="#"><span>학사</span>제27회 학위수여식(후기) 안내</a>
+              <span>2024.08.06</span>
+            </li>
+            <li>
+              <a href="#"><span>학사</span>2024-2학기 전공 과목 수강신청 안내</a>
+              <span>2024.08.05</span>
+            </li>
+          </ul>
+          <a href="#" class="more">자세히 보기</a>
+        </div><!--.notice-wrap-->
+      </div><!--.content-wrap-->
+    </section><!--#news-notice-->
+
+    <section id="quick-menu" data-aos="fade-up" data-aos-once="true">
+      <div class="inner">
+        <h3>CK<br>QUICK MENU</h3>
+        <ul>
+          <li>
+            <a href="#">
+              <img src="img/quick_menu_1@2x.png" alt="증명서 발급">
+              <p>증명서 발급</p>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="img/quick_menu_2@2x.png" alt="CK4U">
+              <p>CK4U</p>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="img/quick_menu_3@2x.png" alt="도서관">
+              <p>도서관</p>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="img/quick_menu_4@2x.png" alt="스쿨버스">
+              <p>스쿨버스</p>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="img/quick_menu_5@2x.png" alt="식단안내">
+              <p>식단안내</p>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="img/quick_menu_6@2x.png" alt="기숙사">
+              <p>기숙사</p>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="img/quick_menu_7@2x.png" alt="캠퍼스 안내">
+            <p>캠퍼스 안내</p>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="img/quick_menu_8@2x.png" alt="장학제도">
+              <p>장학제도</p>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section><!--#quick-menu-->
+
+    <section id="introduce" data-aos="fade-up" data-aos-once="true">
+      <img src="img/intro_perform.png" alt="공연">
+      <h3>
+        세상을 바꾸는 추진력과<br>
+        책임지는 용기
+      </h3>
+      <p>
+        청강문화산업대학교는 남양알로에(現유니베라) 창업자인<br>故이연호 선생이 자연사랑, 인간사랑, 문화사랑의 교육이념 위에<br>사람을 사랑하며 참사랑을 키워내는 숭고한 교육이념을 실천하고자<br>설립한 학교입니다.
+      </p>
+      <a href="#">청강 메세지</a>
+      <img src="img/intro_cartoon.jpg" alt="만화">
+      <img src="img/intro_circle.png" alt="동그라미">
+    </section><!--#introduce-->
+
+    <section id="school" data-aos="fade-up" data-aos-once="true">
+      <h2>SCHOOL</h2>
+      <p>
+        청강문화산업대학교는 전공 중심인 기존 학과 체제로는 변화하는<br>미래의 문화산업인재를 양성하기 어렵다고 판단했습니다. 2011년 문화산업의<br>주요 어젠다를 중심으로 스쿨 체제를 출범했습니다. 스쿨은 독자적인 비전을<br>갖고 독립된 예산, 행정 체계를 운영합니다.
+      </p>
+      <div class="convergence">
+        <ul>
+          <li class="img-box">
+            <div class="desktop">
+              <img src="img/school_ungcon.png" alt="캐릭터" data-aos="fade-down" data-aos-once="true">
+              <img src="img/school_ungcon_base.png" alt="배경사진"  data-aos="fade-up" data-aos-once="true">
+            </div><!--.desktop-->
+            <div class="mobile">
+              <img src="img/school_ungcon_m.png" alt="캐릭터" data-aos="fade-down" data-aos-once="true">
+              <img src="img/school_ungcon_base_m.png" alt="배경사진" data-aos="fade-up" data-aos-once="true">
+            </div><!--.mobile-->
+          </li><!--.img-box-->
+
+          <li class="txt-box" data-aos="fade-up" data-aos-once="true">
+            <h3>융합콘텐츠<br>스쿨</h3>
+            <p>
+              융합콘텐츠스쿨의 콘텐츠 개발은 언리얼 엔진을 활용한 3D 그래픽 프로덕션을 중심으로 전개됩니다. 이 프로덕션을 통해 애니메이션, 영상, 게임 등의 기존 콘텐츠로부터 AR, VR, MR, XR 등의 실감미디어 콘텐츠 및 가상환경 콘텐츠까지 다양한 미디어로 융합이 가능해 집니다. 이러한 장점으로 인해 현재 콘텐츠 산업은 언리얼 엔진 중심의 콘텐츠로 빠르게 변화하고 있습니다.
+            </p>
+          </li><!--.txt-box-->
+        </ul>
+        
+        <p data-aos="fade-up" data-aos-once="true">
+          융합콘텐츠스쿨의 콘텐츠 개발은 언리얼 엔진을 활용한 3D 그래픽 프로덕션을 중심<br>으로 전개됩니다. 이 프로덕션을 통해 애니메이션, 영상, 게임 등의 기존 콘텐츠로부터<br>AR, VR, MR, XR 등의 실감미디어 콘텐츠 및 가상환경 콘텐츠까지<br>다양한 미디어로 융합이 가능해 집니다.
+        </p>
+      </div><!--.convergence-->
+
+
+      <div class="animation">
+        <ul>
+          <li class="txt-box" data-aos="fade-up" data-aos-once="true">
+            <h3>애니메이션<br>스쿨</h3>
+            <p>
+              청강 애니메이션스쿨은 애니메이션 전문 창작인력 양성을 목표로 애니메이션의 기획 및 연출에서부터 후반 제작까지 전 과정을 아우르는 프로젝트 기반의 교육과정 체계 내에서 운영되고 있다. 자신만의 예술적 감성과 독창적 아이디어를 창작 프로젝트 수행을 통해 실현할 수 있도록 돕는 최고의 교육시설과 우수한 교수진으로 구성된 최상의 교육 시스템을 갖추고 있다. 국내 최대 규모의 애니메이션 창작스튜디오, 국내외 현업 전문가 초청 워크숍을 통해 창작 및 실무능력을 고루 갖춘 국내 최고의 애니메이션 전문가 양성 기관이다.
+            </p>
+          </li><!--.txt-box-->
+
+          <li class="img-box">
+            <div class="desktop">
+              <img src="img/school_ani.png" alt="캐릭터" data-aos="fade-down" data-aos-once="true">
+              <img src="img/school_ani_base.png" alt="배경사진" data-aos="fade-up" data-aos-once="true">
+            </div><!--.desktop-->
+            <div class="mobile">
+              <img src="img/school_ani_m.png" alt="캐릭터" data-aos="fade-down" data-aos-once="true">
+              <img src="img/school_ani_base_m.png" alt="배경사진" data-aos="fade-up" data-aos-once="true">
+            </div><!--.mobile-->
+          </li><!--.img-box-->
+        </ul>
+        
+        <p data-aos="fade-up" data-aos-once="true">
+          청강 애니메이션스쿨은 애니메이션 전문 창작인력 양성을 목표로<br>애니메이션의 기획 및 연출에서부터 후반 제작까지 전 과정을 아우르는 프로젝트 기반의<br>교육과정 체계 내에서 운영되고 있다. 창작 및 실무능력을 고루 갖춘 국내 최고의<br>애니메이션 전문가 양성 기관이다.
+        </p>
+      </div><!--.animation-->
+
+
+      <div class="cartoon">
+        <ul>
+          <li class="img-box">
+            <div class="desktop">
+              <img src="img/school_cartoon.png" alt="캐릭터" data-aos="fade-down" data-aos-once="true">
+              <img src="img/school_cartoon_base.png" alt="배경사진" data-aos="fade-up" data-aos-once="true">
+            </div><!--.desktop-->
+            <div class="mobile">
+              <img src="img/school_cartoon_m.png" alt="캐릭터" data-aos="fade-down" data-aos-once="true">
+              <img src="img/school_cartoon_base_m.png" alt="배경사진" data-aos="fade-up" data-aos-once="true">
+            </div><!--.mobile-->
+          </li><!--.img-box-->
+
+          <li class="txt-box" data-aos="fade-up" data-aos-once="true">
+            <h3>만화콘텐츠<br>스쿨</h3>
+            <p>
+              청강문화산업대학교 만화콘텐츠스쿨은 만화, 웹툰, 기획만화, 스토리텔링, 일러스트레이션, 기획, 출판, 평론, 웹소설, 시나리오, 라이트노벨 등 인터넷 콘텐츠 산업 현장에서 현역으로 활발하게 활동하고 있는 교수진과 특화된 커리큘럼을 통해 웹툰·만화·웹소설 등 콘텐츠의 다양한 영역을 아우르는 심화된 전문교육을 실현합니다. 또한 매 학기 크리틱 수업을 통해 담당 교수님과 일대일 멘토링을 받을 수 있으며 다양한 산학협력 업체들과의 긴밀한 연계를 통해 디지털 플랫폼과 출판사를 초청해 리쿠르팅 프로젝트도 시행합니다.
+            </p>
+          </li><!--.txt-box-->
+        </ul>
+        
+        <p data-aos="fade-up" data-aos-once="true">
+          청강문화산업대학교 만화콘텐츠스쿨은 만화, 웹툰, 기획만화, 스토리텔링, 일러스트<br>레이션, 기획, 시나리오 산업 현장에서 현역으로 활발하게 활동하고 있는 교수진과 특화된<br>커리큘럼을 통해 웹툰·만화·웹소설 등 콘텐츠의 전문교육을 실현합니다.
+        </p>
+      </div><!--.cartoon-->
+
+
+      <div class="game">
+        <ul>
+          <li class="txt-box" data-aos="fade-up" data-aos-once="true">
+            <h3>게임콘텐츠<br>스쿨</h3>
+            <p>
+              게임콘텐츠스쿨은 게임의 기획, 프로그래밍, 그래픽, e스포츠까지 게임산업의 모든 영역을 아우르는 전문화된 교육을 실현합니다. 프로젝트 중심의 교육을 통해 재학중 총 2회 이상의 게임을 제작하는 경험을 쌓으며 게임제작과 QA, 게임 비즈니스 등 게임산업의 다양한 영역을 학습할 수 있습니다. 매 학기 게임산업 전문가특강, 워크숍, 산학프로젝트를 통해 다양한 실무체험과 현장중심 교육을 실현하고 있습니다.
+            </p>
+          </li><!--.txt-box-->
+
+          <li class="img-box">
+            <div class="desktop">
+              <img src="img/school_game.png" alt="캐릭터" data-aos="fade-down" data-aos-once="true">
+              <img src="img/school_game_base.png" alt="배경사진" data-aos="fade-up" data-aos-once="true">
+            </div><!--.desktop-->
+            <div class="mobile">
+              <img src="img/school_game_m.png" alt="캐릭터" data-aos="fade-down" data-aos-once="true">
+              <img src="img/school_game_base_m.png" alt="배경사진" data-aos="fade-up" data-aos-once="true">
+            </div><!--.mobile-->
+          </li><!--.img-box-->
+        </ul>
+        
+        <p data-aos="fade-up" data-aos-once="true">
+          게임콘텐츠스쿨은 게임의 기획, 프로그래밍, 그래픽까지 게임산업의 모든 영역을 아<br>우르는 전문화된 교육을 실현합니다. 프로젝트 중심의 교육을 통해 재학중 총 2회 이상의 게<br>임을 제작하는 경험을 쌓으며 게임제작과 QA, 게임 비즈니스 등 게임산업의 다양한<br>영역을 학습할 수 있습니다.
+        </p>
+      </div><!--.game-->
+
+
+      <div class="perform">
+        <ul>
+          <li class="img-box">
+            <div class="desktop">
+              <img src="img/school_perform.png" alt="인물" data-aos="fade-down" data-aos-once="true">
+              <img src="img/school_perform_base.png" alt="배경사진" data-aos="fade-up" data-aos-once="true">
+            </div><!--.desktop-->
+            <div class="mobile">
+              <img src="img/school_perform_m.png" alt="캐릭터" data-aos="fade-down" data-aos-once="true">
+              <img src="img/school_perform_base_m.png" alt="배경사진" data-aos="fade-up" data-aos-once="true">
+            </div><!--.mobile-->
+          </li><!--.img-box-->
+
+          <li class="txt-box" data-aos="fade-up" data-aos-once="true">
+            <h3>공연예술<br>스쿨</h3>
+            <p>
+              공연예술은 연결되어 있는 모든 분야와의 협업을 통해 하나의 작품이 빚어집니다. 이 경험이 없으면 예술 전체를 바라 보는 눈을 기를 수 없습니다. 청강문화산업대학교 공연예술스쿨은 분야별로 협업하는 프로덕션 중심 교육을 통해 공연 예술 현장을 선도하는 창의적 인재를 양성하는 교육 공동체입니다.  공연예술스쿨은 연출극작전공, 뮤지컬전공, 연극영상전공, 무대미술전공으로 구성되어 있습니다.
+            </p>
+          </li><!--.txt-box-->
+        </ul>
+        
+        <p data-aos="fade-up" data-aos-once="true">
+          청강문화산업대학교 공연예술스쿨은 협업하는 프로덕션 중심 교육을 통해 공연 예<br>술 현장을 선도하는 창의적 인재를 양성하는 교육 공동체입니다. 공연예술스쿨은<br>연출극작전공, 뮤지컬전공, 연극영상전공, 무대미술전공으로 구성되어 있습니다.
+        </p>
+      </div><!--.perform-->
+
+
+      <div class="fashion">
+        <ul>
+          <li class="txt-box" data-aos="fade-up" data-aos-once="true">
+            <h3>패션뷰티<br>스쿨</h3>
+            <p>
+              청강문화산업대학교 스타일리스트전공은 패션뷰티 문화산업에서 창의적이고 감각적인 이미지를 기획하고 유기적으로 프로젝트를 운영할 수 있는 융합형 글로벌 인재를 양성합니다. 스타일리스트전공은 패션스타일리스트, 뷰티크리에이터, 패션브랜드창업 3개의 모듈로 구성된 융합교과과정을 통해 세분화된 직무를 경험하고 학습하여 진로를 선택할 수 있습니다.
+            </p>
+          </li><!--.txt-box-->
+
+          <li class="img-box">
+            <div class="desktop">
+              <img src="img/school_fashion.png" alt="인물" data-aos="fade-down" data-aos-once="true">
+              <img src="img/school_fashion_base.png" alt="배경사진" data-aos="fade-up" data-aos-once="true">
+            </div><!--.desktop-->
+            <div class="mobile">
+              <img src="img/school_fashion_m.png" alt="캐릭터" data-aos="fade-down" data-aos-once="true">
+              <img src="img/school_fashion_base_m.png" alt="배경사진" data-aos="fade-up" data-aos-once="true">
+            </div><!--.mobile-->
+          </li><!--.img-box-->
+        </ul>
+        
+        <p data-aos="fade-up" data-aos-once="true">
+          청강문화산업대학교 스타일리스트전공은 융합형 글로벌 인재를 양성합니다.<br>스타일리스트전공은 패션스타일리스트, 뷰티크리에이터, 패션브랜드창업 3개의<br>모듈로 구성된 융합교과과정을 통해 세분화된 직무를 경험하고 학습하여<br>진로를 선택할 수 있습니다.
+        </p>
+      </div><!--.fashion-->
+
+
+      <div class="food">
+        <ul>
+          <li class="img-box">
+            <div class="desktop">
+              <img src="img/school_food.png" alt="인물" data-aos="fade-down" data-aos-once="true">
+              <img src="img/school_food_base.png" alt="배경사진" data-aos="fade-up" data-aos-once="true">
+            </div><!--.desktop-->
+            <div class="mobile">
+              <img src="img/school_food_m.png" alt="캐릭터" data-aos="fade-down" data-aos-once="true">
+              <img src="img/school_food_base_m.png" alt="배경사진" data-aos="fade-up" data-aos-once="true">
+            </div><!--.mobile-->
+          </li><!--.img-box-->
+
+          <li class="txt-box" data-aos="fade-up" data-aos-once="true">
+            <h3>푸드스쿨</h3>
+            <p>
+              식재료 이해, 핫프로덕션 키친(서양조리1), 콜드프로덕션 키친(서양조리2), 코리안키친, 재패니즈키친, 에스닉키친, 분자요리, 레스토랑서비스, 육가공마이스터 등을 통해 기본적인 지식과 다양한 조리기술을 배웁니다. 이를 바탕으로 조리메뉴개발, 외식비즈니스모델개발, 팝업레스토랑 운영, 식당모의창업, 자격증 취득, 취업브랜드클래스와 같은 분야의 다양한 프로젝트에 참여할 수 있습니다.
+            </p>
+          </li><!--.txt-box-->
+        </ul>
+        
+        <p data-aos="fade-up" data-aos-once="true">
+          식재료 이해, 핫프로덕션 키친(서양조리1), 콜드프로덕션 키친(서양조리2), 코리안<br>키친, 재패니즈키친, 에스닉키친, 분자요리, 레스토랑서비스, 육가공마이스터 등을<br>통해 기본적인 지식과 다양한 조리기술을 배웁니다.
+        </p>
+      </div><!--.food-->
+    </section><!--#school-->
+
+    <section id="exhibition">
+      <h2>Exhibition & Performance</h2>
+      <div class="swiper exhibition">
+        <ul class="swiper-wrapper">
+          <li class="swiper-slide">
+            <a href="#">
+              <img src="img/poster1.jpg" alt="포스터1">
+            </a>
+          </li>
+          <li class="swiper-slide">
+            <a href="#">
+              <img src="img/poster2.jpg" alt="포스터2">
+            </a>
+          </li>
+          <li class="swiper-slide">
+            <a href="#">
+              <img src="img/poster3.jpg" alt="포스터3">
+            </a>
+          </li>
+          <li class="swiper-slide">
+            <a href="#">
+              <img src="img/poster4.png" alt="포스터4">
+            </a>
+          </li>
+          <li class="swiper-slide">
+            <a href="#">
+              <img src="img/poster5.jpg" alt="포스터5">
+            </a>
+          </li>
+        </ul>
+        <div class="swiper-pagination"></div>
+      </div>
+    </section><!--#exhibition-->
+
+    <section id="calendar" data-aos="fade-up" data-aos-once="true">
+      <div class="top">
+        <h2>Calendar</h2>
+        <p>날짜를 누르시면 일정을 확인하실 수 있습니다.</p>
+      </div><!--.top-->
+
+      <div class="inner">
+        <div class="up">
+          <h3>2024<br>09</h3>
+          <div class="button">
+            <span class="material-symbols-outlined">
+              skip_previous
+            </span>
+            <span class="material-symbols-outlined">
+              fiber_manual_record
+            </span>
+            <span class="material-symbols-outlined">
+              skip_next
+            </span>
+          </div><!--.button-->
+        </div><!--.up-->
+
+        <table>
+          <thead>
+            <tr class="day">
+              <th>SUN</th>
+              <th>MON</th>
+              <th>TUE</th>
+              <th>WED</th>
+              <th>THU</th>
+              <th>FRI</th>
+              <th>SAT</th>
+            </tr><!--.day-->
+
+            <tr class="week-one">
+              <td>
+                <p>1</p>
+                <ul>
+                  <li class="pink"></li>
+                  <li class="yellow"></li>
+                </ul>
+
+                <div class="schedule-pop-up">
+                  <div class="pink"></div>
+                  <p>2024학년 2학기 수강신청과목 취소 신청</p>
+                  <div class="yellow"></div>
+                  <p>2024학년 2학기 수강신청 정정 마감</p>
+                </div><!--.schedule-pop-up-->
+              </td>
+              <td>2</td>
+              <td>
+                <p>3</p>
+                <ul>
+                  <li class="pink"></li>
+                </ul>
+
+                <div class="schedule-pop-up">
+                  <div class="pink"></div>
+                  <p>복학만기일</p>
+                </div><!--.schedule-pop-up-->
+              </td>
+              <td>4</td>
+              <td>5</td>
+              <td>6</td>
+              <td>7</td>
+            </tr><!--.1week-->
+
+            <tr class="week-two">
+              <td>8</td>
+              <td>9</td>
+              <td>
+                <p>10</p>
+                <ul>
+                  <li class="green"></li>
+                </ul>
+
+                <div class="schedule-pop-up">
+                  <div class="green"></div>
+                  <p>그린데이</p>
+                </div><!--.schedule-pop-up-->
+              </td>
+              <td>11</td>
+              <td>12</td>
+              <td>13</td>
+              <td>14</td>
+            </tr><!--.2week-->
+
+            <tr class="week-three">
+              <td>15</td>
+              <td>16</td>
+              <td>17</td>
+              <td>18</td>
+              <td>19</td>
+              <td>20</td>
+              <td>
+                <p>21</p>
+                <ul>
+                  <li class="purple"></li>
+                </ul>
+
+                <div class="schedule-pop-up">
+                  <div class="purple"></div>
+                  <p>청강체전&축제</p>
+                </div><!--.schedule-pop-up-->
+              </td>
+            </tr><!--.3week-->
+
+            <tr class="week-four">
+              <td>22</td>
+              <td>23</td>
+              <td>24</td>
+              <td>25</td>
+              <td>26</td>
+              <td>27</td>
+              <td>28</td>
+            </tr><!--.4week-->
+
+            <tr class="5week">
+              <td>29</td>
+              <td>30</td>
+              <td>31</td>
+            </tr><!--.5week-->
+          </thead>
+        </table>
+      </div><!--.inner-->
+    </section><!--#calendar-->
+
+    <footer>
+      <div class="inner">
+        <div class="top">
+          <a href="#">
+            <img src="img/logo_full_white.png" alt="로고 화이트">
+          </a>
+          <ul class="info">
+            <li>
+              <a href="#">정보공개</a>
+            </li>
+            <li>
+              <a href="#">개인정보처리방침</a>
+            </li>
+            <li>
+              <a href="#">영상정보처리방침</a>
+            </li>
+            <li>
+              <a href="#">대학정보공시알리미</a>
+            </li>
+            <li>
+              <a href="#">안전·보건 목표 및 경영 방침</a>
+            </li>
+            <li>
+              <a href="#">교내 주차장 이용안내</a>
+            </li>
+            <li>
+              <a href="#">오시는길</a>
+            </li>
+          </ul><!--.info-->
+        </div><!--.top-->
+        <div class="txt-box">
+          <p>
+            TEL. 031-637-1114 FAX 031&#45;639&#45;5727 E&#45;MAIL. webmaster&#64;ck.ac.kr<br>대표자 &#58; 최성신 사업자등록번호 &#58; 126-82-04454
+          </p>
+          <address>
+            주소	&#45; 17390 경기도 이천시 마장면 청강가창로 389	&#45;94&#40;해월리&#41; 청강문화산업대학교
+          </address>
+          <p>
+            본 사이트에 이용된 모든 콘텐츠&#40;텍스트, 이미지, 영상 등&#41;의 저작권은 청강문화산업대학교에 있습니다.<br>
+            COPYRIGHT &#169; 2024 CHUNGKANG COLLEGE OF CULTURAL INDUSTRIES ALL RIGHTS RESERVED.
+          </p>
+        </div><!--.txt-box-->
+        <ul class="sns">
+          <li>
+            <a href="#">
+              <img src="img/sns_youtube.png" alt="유튜브">
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="img/sns_facebook.png" alt="페이스북">
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="img/sns_twitter.png" alt="트위터">
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="img/sns_blog.png" alt="블로그">
+            </a>
+          </li>
+        </ul><!--.sns-->
+      </div><!--.inner-->
+    </footer>
+  </div><!--#wrap-->
+</body>
+</html>

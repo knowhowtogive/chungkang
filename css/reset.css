@@ -1,0 +1,59 @@
+@charset "UTF-8";
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0 auto;
+  font-family: 'Inter', 'Noto Sans KR', 'NanumSquareNeo', sans-serif;
+  line-height: 1.35;
+  font-size: 1.6rem;
+  color: #000;
+}
+
+a{
+  color: #000;
+  text-decoration: none;
+}
+
+ol, ul{
+  text-decoration: none;
+}
+
+li{
+  list-style: none;
+}
+
+table{
+  border-collapse: collapse; 
+  width: 100%;
+}
+
+address, em{font-style: normal;}
+
+caption, legend{display: none;}
+
+select, input, fieldset{
+  vertical-align: top; 
+  border: 0;
+}
+
+input{outline: none;}
+
+img{
+  vertical-align: top; 
+  border: 0;
+}
+
+details summary {
+  list-style: none;
+  appearance: none; 
+  cursor: pointer;
+}
+
+.display-none{
+  display: none;
+}
